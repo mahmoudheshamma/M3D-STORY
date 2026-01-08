@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    direction: rtl;
+    background-color: #f3f3f3;
+}
+.content{
+    max-width: 900px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+}
+.content:hover{
+    transform: translateY(-4px)
+}
+.headerStory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.StoryName{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+}
+.StoryNumber{
+    font-size: 14px;
+    color: #777;
+}
+.StoryInfo{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.StoryClass, .StoryType{
+    background: #eef2ff;
+    color: #3949ab;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.StoryFooter{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.StoryWriter{
+    font-size: 14px;
+    color: #555;
+}
+.StoryRating{
+    color: #f9a825;
+    font-size: 14px;
+}
